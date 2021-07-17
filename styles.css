@@ -1,0 +1,43 @@
+.container{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    font-family: sans-serif;
+}
+.title-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 32px;
+}
+.title-row .date{
+    color: gray;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    background-color: #e8e8e8;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 16px 32px 16px 0;
+    min-width: 20vw;
+    flex: 1;
+}   
+.card h6.title {
+    font-size: large;
+    /* font-family: sans-serif; */
+    margin: 0;
+}
+.card h1.value {
+    font-size: xxx-large;
+    /* font-family: sans-serif; */
+    letter-spacing: 4px;
+    margin: 8px 0 0 0;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
